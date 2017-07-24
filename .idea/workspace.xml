@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5e814baf-a31a-4f0d-8751-4ab604e7442c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/wso2/device/mgt/plugins/App.java" afterPath="$PROJECT_DIR$/src/main/java/org/wso2/device/mgt/plugins/App.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -734,7 +733,7 @@
       <updated>1500615775032</updated>
       <workItem from="1500615779327" duration="9040000" />
       <workItem from="1500638247632" duration="442000" />
-      <workItem from="1500867547502" duration="14021000" />
+      <workItem from="1500867547502" duration="14041000" />
     </task>
     <task id="LOCAL-00001" summary="Test commit">
       <created>1500625018221</created>
@@ -757,11 +756,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500891253142</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="With database connection">
+      <created>1500891275299</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1500891275299</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23503000" />
+    <option name="totallyTimeSpent" value="23523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
