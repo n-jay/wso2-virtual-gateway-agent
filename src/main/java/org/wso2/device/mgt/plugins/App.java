@@ -1,9 +1,11 @@
 package org.wso2.device.mgt.plugins;
 
 import org.apache.commons.lang3.StringEscapeUtils;
+import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 
 import javax.swing.*;
 import java.awt.*;
+import java.sql.*;
 
 /**
  * This is the main class of the program.
@@ -23,7 +25,9 @@ public class App extends JFrame {
 
     //constructor for the GUI app
     public App() {
-        guiMain();
+//        guiMain();
+        connTest();
+
     }
 
     //primary method including all GUI components and logic
@@ -40,6 +44,29 @@ public class App extends JFrame {
 
         panel.add(text);
         frame.add(panel);
+    }
+
+    
+    private void connTest() {
+        try {
+            //1.get connection to database
+            Connection myConn = DriverManager.getConnection("jdbc:mysql://localhost:3306/demo","root","");
+
+            //2.create statement
+            Statement myStat = myConn.createStatement();
+
+            //3.SQL query
+            ResultSet myRs = myStat.executeQuery("SELECT * FROM employees");
+//            System.out.print("SUCCESS!");
+
+            //4.process the result set
+            while(myRs.next()) {
+                System.out.println(myRs.getString("last_name") +  "," + myRs.getString("first_name"));
+            }
+
+        } catch(Exception e) {
+            e.printStackTrace();
+        }
     }
 
 }
