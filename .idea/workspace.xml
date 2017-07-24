@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e814baf-a31a-4f0d-8751-4ab604e7442c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_43_bin.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MavenTest2.iml" afterPath="$PROJECT_DIR$/MavenTest2.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/wso2/device/mgt/plugins/App.java" afterPath="$PROJECT_DIR$/src/main/java/org/wso2/device/mgt/plugins/App.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,13 +19,13 @@
       <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/device/mgt/plugins/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="48" column="4" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+            <state relative-caret-position="398">
+              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#509#510#0" expanded="true" />
                 <element signature="e#534#535#0" expanded="true" />
-                <marker date="1500891227074" expanded="true" signature="1498:1521" ph="SELECT * FRO... employees" />
+                <marker date="1500891257106" expanded="true" signature="1494:1517" ph="SELECT * FRO... employees" />
               </folding>
             </state>
           </provider>
@@ -736,7 +734,7 @@
       <updated>1500615775032</updated>
       <workItem from="1500615779327" duration="9040000" />
       <workItem from="1500638247632" duration="442000" />
-      <workItem from="1500867547502" duration="13977000" />
+      <workItem from="1500867547502" duration="14021000" />
     </task>
     <task id="LOCAL-00001" summary="Test commit">
       <created>1500625018221</created>
@@ -752,15 +750,21 @@
       <option name="project" value="LOCAL" />
       <updated>1500887032353</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="With database connection">
+      <created>1500891253142</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1500891253142</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23459000" />
+    <option name="totallyTimeSpent" value="23503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -770,8 +774,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34858388" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3455115" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3455115" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -828,7 +832,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test commit" />
     <MESSAGE value="Added jar file for MySQL database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added jar file for MySQL database" />
+    <MESSAGE value="With database connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="With database connection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -855,7 +860,7 @@
             <element signature="imports" expanded="true" />
             <element signature="e#509#510#0" expanded="true" />
             <element signature="e#534#535#0" expanded="true" />
-            <marker date="1500891227074" expanded="true" signature="1498:1521" ph="SELECT * FRO... employees" />
+            <marker date="1500891257106" expanded="true" signature="1494:1517" ph="SELECT * FRO... employees" />
           </folding>
         </state>
       </provider>
@@ -876,7 +881,7 @@
             <element signature="imports" expanded="true" />
             <element signature="e#509#510#0" expanded="true" />
             <element signature="e#534#535#0" expanded="true" />
-            <marker date="1500891227074" expanded="true" signature="1498:1521" ph="SELECT * FRO... employees" />
+            <marker date="1500891257106" expanded="true" signature="1494:1517" ph="SELECT * FRO... employees" />
           </folding>
         </state>
       </provider>
@@ -907,13 +912,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/device/mgt/plugins/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="48" column="4" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+        <state relative-caret-position="398">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#509#510#0" expanded="true" />
             <element signature="e#534#535#0" expanded="true" />
-            <marker date="1500891227074" expanded="true" signature="1498:1521" ph="SELECT * FRO... employees" />
+            <marker date="1500891257106" expanded="true" signature="1494:1517" ph="SELECT * FRO... employees" />
           </folding>
         </state>
       </provider>

@@ -46,7 +46,7 @@ public class App extends JFrame {
         frame.add(panel);
     }
 
-    
+
     private void connTest() {
         try {
             //1.get connection to database
